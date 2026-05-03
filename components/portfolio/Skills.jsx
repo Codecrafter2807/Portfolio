@@ -7,23 +7,19 @@ const skillCategories = [
   },
   {
     title: "Frameworks & Libraries",
-    skills: ["Django", "Django REST Framework", "React.js", "Next.js", "Pandas", "NumPy", "Bootstrap", "Tailwind CSS"]
+    skills: ["React.js", "Next.js", "FastAPI", "Django", "Express.js", "Tailwind CSS", "Redux Toolkit", "SQLAlchemy", "Pandas", "NumPy", "Jupyter", "Matplotlib", "Bootstrap"]
   },
   {
     title: "Databases",
-    skills: ["MySQL", "SQLite", "MongoDB", "REST API Design"]
+    skills: ["MySQL", "MongoDB", "SQLite"]
   },
   {
     title: "AI/ML Tools",
-    skills: ["OpenAI Whisper", "SpaCy", "NLP Pipelines", "LLM Integration", "Jupyter", "Matplotlib"]
+    skills: ["LangGraph", "LangChain", "Groq (Llama 3)", "OpenAI Whisper", "NLP Pipelines", "Speaker Diarization"]
   },
   {
     title: "Tools & Platforms",
-    skills: ["GitHub", "VS Code", "Postman", "Adobe Photoshop", "Canva"]
-  },
-  {
-    title: "Concepts",
-    skills: ["RESTful APIs", "OOP", "MVC Architecture", "Responsive Design", "Agile Development", "Speaker Diarization"]
+    skills: ["Git", "GitHub", "VS Code", "Postman", "Vercel", "Render", "Hugging Face Spaces", "AWS"]
   }
 ]
 

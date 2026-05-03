@@ -5,23 +5,23 @@ import { GraduationCap, Briefcase, Code2, Sparkles } from "lucide-react"
 const highlights = [
   {
     icon: Code2,
-    title: "Full-Stack Development",
-    description: "Building end-to-end web applications with React.js, Node.js, Django, and modern databases."
+    title: "Full-Stack AI Engineering",
+    description: "Building production-ready web apps powered by LLMs, React/Next.js, and FastAPI/Django."
   },
   {
     icon: Sparkles,
-    title: "AI/ML Integration",
-    description: "Integrating AI capabilities like OpenAI Whisper, GPT-4o, and NLP pipelines into applications."
+    title: "Agentic AI & RAG",
+    description: "Hands-on experience with LangGraph, LangChain, and Groq for building intelligent, stateful AI agents."
   },
   {
     icon: Briefcase,
-    title: "Professional Experience",
-    description: "Over 1.5 years of experience in digital product design and web development."
+    title: "Product Experience",
+    description: "Deployed projects spanning CRM automation, meeting intelligence, and healthcare platforms."
   },
   {
     icon: GraduationCap,
-    title: "Academic Excellence",
-    description: "Currently pursuing MCA at Lyallpur Khalsa College of Engineering, Jalandhar."
+    title: "MCA Finalist",
+    description: "Currently pursuing Master of Computer Applications at Lyallpur Khalsa College of Engineering."
   }
 ]
 
@@ -35,24 +35,23 @@ export default function About() {
         
         <div className="grid gap-8">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Back in 2021, I started my journey in Computer Science with a BCA degree and 
-            quickly fell in love with building things for the web. Fast-forward to today, 
-            and {"I've"} had the privilege of working on diverse projects ranging from{" "}
-            <span className="text-foreground font-medium">AI-powered chatbots</span> to{" "}
-            <span className="text-foreground font-medium">full-stack web applications</span>.
+            I am a <span className="text-foreground font-medium">Full-Stack AI Engineer</span> driven 
+            by the challenge of building production-ready applications that leverage the latest in 
+            LLM technology. My journey in tech evolved from building standard web apps to 
+            architecting <span className="text-foreground font-medium">agentic AI systems</span> that 
+            solve real-world problems.
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed">
-            My main focus these days is building AI-integrated applications that push 
-            the boundaries of what&apos;s possible with modern web technologies. I most enjoy 
-            building software in the sweet spot where design and engineering meet — things 
-            that look good but are also built well under the hood.
+            My current focus is on building AI-first platforms using <span className="text-foreground font-medium">LangGraph, Groq, and OpenAI Whisper</span>. 
+            I enjoy the intersection of backend stability (FastAPI/Django) and frontend interactivity (React/Next.js), 
+            ensuring that complex AI logic is delivered through clean, intuitive user interfaces.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            When {"I'm "} not coding, you&apos;ll find me exploring open source projects, 
-            diving into software architecture concepts, or experimenting with new 
-            UI/UX design patterns.
+            When {"I'm "} not building AI agents, I explore open-source contributions, 
+            software architecture, and UI/UX design. I believe that the best products are 
+            built where engineering excellence meets user-centric design.
           </p>
         </div>
 

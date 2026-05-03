@@ -4,34 +4,34 @@ import { ExternalLink } from "lucide-react"
 
 const experiences = [
   {
-    period: "2024 — 2026",
-    title: "Catalogue Designer & Website Executive",
+    period: "July 2024 — February 2026",
+    title: "Web Developer & Digital Marketing Associate",
     company: "GK Plastic Industries",
-    location: "Jalandhar, Punjab",
-    description: "Designed and maintained the company's product catalogue and website, improving digital presence and supporting B2B client engagement. Created high-quality product advertisements using Adobe tools, reducing external design costs.",
+    location: "Jalandhar, Punjab, India",
+    description: "Developed and maintained the company's B2B digital presence across 100+ product SKUs, driving sales conversions through a streamlined content pipeline.",
     achievements: [
-      "Improved digital presence and B2B client engagement",
-      "Managed 100+ product SKUs with accurate information",
-      "Reduced external design costs through in-house production"
+      "Developed and maintained company website, driving improved B2B digital presence across 100+ product SKUs.",
+      "Cut external design costs by 80% by owning all creatives, product visuals, and marketing collateral in-house.",
+      "Managed end-to-end content pipeline — from product shoots to live listings — directly supporting sales conversions."
     ],
-    skills: ["Adobe Photoshop", "Canva", "Website Management", "UI/UX Design"],
+    skills: ["Web Development", "Digital Marketing", "Content Pipeline", "B2B Strategy"],
     link: null
   }
 ]
 
 const education = [
   {
-    period: "2024 — 2026",
+    period: "July 2024 — June 2026",
     degree: "Master of Computer Applications (MCA)",
     institution: "Lyallpur Khalsa College of Engineering",
-    location: "Jalandhar, Punjab",
+    location: "Jalandhar, Punjab, India",
     focus: "Computer Science"
   },
   {
-    period: "2021 — 2024",
+    period: "September 2021 — May 2024",
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "DAV College, Jalandhar",
-    location: "Jalandhar, Punjab",
+    location: "Jalandhar, Punjab, India",
     focus: "Computer Science"
   }
 ]

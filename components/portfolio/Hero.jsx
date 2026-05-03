@@ -24,7 +24,7 @@ export default function Hero() {
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 mb-8 rounded-full overflow-hidden ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
               <Image
                 src="/images/profile.jpeg"
-                alt="Harshit Jain - Full-Stack Developer"
+                alt="Harshit Jain - Full-Stack AI Engineer"
                 fill
                 className="object-cover object-top"
                 priority
@@ -35,11 +35,10 @@ export default function Hero() {
               Harshit Jain
             </h1>
             <h2 className="text-xl sm:text-2xl font-medium text-primary mb-6">
-              Full-Stack Developer
+              Full-Stack AI Engineer
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-8">
-              I build accessible, pixel-perfect digital experiences for the web, 
-              specializing in AI-powered applications and scalable solutions.
+              Building production-ready web apps powered by LLMs, React/Next.js, and FastAPI/Django.
             </p>
             
             {/* Location */}
@@ -49,13 +48,13 @@ export default function Hero() {
             </div>
 
             <a
-              href="/Harsh_CV.pdf"
-              download="Harsh_CV.pdf"
+              href="/harshit_resume-4.pdf"
+              download="harshit_resume-4.pdf"
               className="inline-flex items-center gap-2 px-5 py-2.5 mb-8 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
               aria-label="Download CV"
             >
               <Download className="w-4 h-4" />
-              <span className="text-sm font-medium">Download CV</span>
+              <span className="text-sm font-medium">Download Resume</span>
             </a>
             
             {/* Social Links */}
@@ -91,20 +90,19 @@ export default function Hero() {
           {/* Right Column - Main Content Preview */}
           <div className="lg:w-1/2 mt-12 lg:mt-0">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              {"I'm"} a developer who loves building websites and apps that everyone can use easily. 
-              I enjoy combining good design with clean code to create things that look beautiful 
-              and work smoothly. What excites me most is turning ideas into real products that 
-              people actually enjoy using.
+              {"I'm"} a Full-Stack AI Engineer specializing in building production-ready applications 
+              powered by Large Language Models. I focus on creating seamless integrations between 
+              advanced AI capabilities and modern web architectures.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Currently, {"I'm"} completing my <span className="text-foreground font-medium">Master of Computer Applications</span> at{" "}
-              <span className="text-foreground font-medium">Lyallpur Khalsa College of Engineering</span>, 
-              specializing in full-stack development with Python, Django, React.js, and AI/ML integration.
+              Currently, {"I'm"} an MCA finalist at <span className="text-foreground font-medium">Lyallpur Khalsa College of Engineering</span>, 
+              where {"I've"} developed expertise in <span className="text-foreground font-medium">LangGraph, Groq, and OpenAI Whisper</span>. 
+              My work spans CRM automation, meeting intelligence, and healthcare platforms.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In my past role at <span className="text-foreground font-medium">GK Plastic Industries</span>, 
-              I designed and maintained digital products, improving their online presence and 
-              supporting B2B client engagement through innovative web solutions.
+              In my recent role at <span className="text-foreground font-medium">GK Plastic Industries</span>, 
+              I served as a <span className="text-foreground font-medium">Web Developer & Digital Marketing Associate</span>, 
+              where I optimized the company's digital presence and reduced design costs by 80% through in-house innovation.
             </p>
           </div>
         </div>

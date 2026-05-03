@@ -6,49 +6,49 @@ const projects = [
   {
     icon: Calendar,
     title: "AI Meeting Notes Generator",
-    description: "Engineered an end-to-end meeting intelligence system that automatically converts audio recordings into structured documentation using speech recognition and NLP. Integrated OpenAI Whisper for speech-to-text and PyAnnote for speaker diarization.",
-    technologies: ["Python", "Next.js", "OpenAI Whisper", "GPT-4o", "Django ORM", "PyAnnote"],
+    description: "Production-deployed system converting multi-speaker audio into structured notes, action items, and summaries. Built chunked streaming transcription pipeline with OpenAI Whisper, enabling real-time feedback on long-form audio. Optimized LLM inference latency via Groq APIs (Llama 3).",
+    technologies: ["Python", "Next.js", "Whisper", "Groq", "Django", "PyAnnote"],
+    github: null,
+    live: "https://meet-ai-frontend-xi.vercel.app",
+    featured: true
+  },
+  {
+    icon: Bot,
+    title: "AI-First CRM: HCP Interaction Module",
+    description: "AI-first CRM for pharma reps using a LangGraph + Groq (Llama-3.3-70b) assistant that auto-fills forms from natural language. Implemented smart merge logic and medical entity extraction to auto-identify drug names, symptoms, and specialties.",
+    technologies: ["React", "FastAPI", "LangGraph", "Groq", "MySQL", "SQLAlchemy"],
     github: null,
     live: null,
     featured: true
   },
   {
     icon: FileText,
-    title: "AI-Based Opinion Mining System for Social Media Sentiment Analysis",
-    description: "Research paper developing a three-component opinion mining pipeline combining sentiment classification, emotion detection, and topic extraction. Tested on Sentiment140 (50K tweets), IMDB (50K reviews), and Amazon (10K reviews). Achieved 90.03% accuracy on IMDB using SVM with TF-IDF features.",
-    technologies: ["Python", "TensorFlow", "scikit-learn", "NLTK", "Keras", "Gensim", "BiLSTM", "LDA"],
+    title: "Supervisor Feedback Analyzer",
+    description: "Reduced supervisor feedback assessment time from 60 mins to under 10 mins via structured LLM drafts. Features multi-stage JSON extraction with regex fallbacks and confidence scoring to prevent automation bias.",
+    technologies: ["React", "Django REST", "Llama 3.2", "Ollama", "Regex"],
     github: null,
     live: null,
-    featured: true,
-    isResearch: true,
-    researchPaper: "/Harshit_Jain_2443317.pdf"
+    featured: true
   },
   {
     icon: Stethoscope,
-    title: "Doctor Appointment Booking & Review Web App",
-    description: "Designed and developed a full-stack doctor appointment booking platform with patient reviews, built on the MERN-adjacent stack. Implemented responsive front-end using React.js and Tailwind CSS with RESTful backend APIs.",
-    technologies: ["React.js", "Tailwind CSS", "MongoDB", "Express.js", "Node.js"],
+    title: "Doctor Appointment Booking & Review App",
+    description: "Full-stack booking and review platform with user auth, appointment scheduling, and patient reviews. Designed RESTful APIs and a responsive mobile-first UI.",
+    technologies: ["React.js", "Tailwind CSS", "Express.js", "MongoDB", "Node.js"],
     github: null,
     live: null,
     featured: true
   },
   {
-    icon: Bot,
-    title: "AI Chat-Bot",
-    description: "Built an AI-powered chatbot integrating the Google Gemini API for real-time data fetching and intelligent query responses. Features an interactive front-end using Streamlit framework and served via Flask backend.",
-    technologies: ["Python", "Google Gemini API", "Streamlit", "Flask"],
+    icon: FileText,
+    title: "AI-Based Opinion Mining System",
+    description: "Research paper developing a three-component opinion mining pipeline combining sentiment classification, emotion detection, and topic extraction. Achieved 90.03% accuracy on IMDB using SVM with TF-IDF features.",
+    technologies: ["Python", "TensorFlow", "scikit-learn", "NLTK", "BiLSTM", "LDA"],
     github: null,
     live: null,
-    featured: true
-  },
-  {
-    icon: Users,
-    title: "Employee Management System (EMS)",
-    description: "Built a full-stack desktop EMS application using Java for both front-end UI and core business logic. Designed and managed a relational database backend using MySQL Workbench for employee records, roles, and reporting. Applied OOP principles including inheritance, encapsulation, and MVC architecture.",
-    technologies: ["Java", "JavaFX", "MySQL", "MySQL Workbench", "MVC"],
-    github: null,
-    live: null,
-    featured: true
+    featured: false,
+    isResearch: true,
+    researchPaper: "/Harshit_Jain_2443317.pdf"
   }
 ]
 
