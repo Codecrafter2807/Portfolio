@@ -1,6 +1,14 @@
 "use client"
 
-import { ExternalLink } from "lucide-react"
+import { useState } from "react"
+import { ExternalLink, FileText } from "lucide-react"
+import { 
+  Dialog, 
+  DialogContent, 
+  DialogHeader, 
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 const experiences = [
   {
@@ -47,6 +55,8 @@ const certifications = [
 ]
 
 export default function Experience() {
+  const [selectedCert, setSelectedCert] = useState(null)
+
   return (
     <section id="experience" className="py-24 px-6 lg:px-0">
       <div className="max-w-4xl mx-auto">
@@ -145,15 +155,29 @@ export default function Experience() {
                     {cert.title}
                   </h3>
                   {cert.link && (
-                    <a 
-                      href={cert.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-xs font-medium text-primary hover:underline flex items-center gap-1"
-                    >
-                      View Certificate
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <button 
+                          className="text-xs font-medium text-primary hover:underline flex items-center gap-1"
+                          onClick={() => setSelectedCert(cert)}
+                        >
+                          View Certificate
+                          <FileText className="w-3 h-3" />
+                        </button>
+                      </DialogTrigger>
+                      <DialogContent className="max-w-4xl w-[95vw] h-[90vh] p-0 overflow-hidden">
+                        <DialogHeader className="p-4 border-b">
+                          <DialogTitle>{cert.title}</DialogTitle>
+                        </DialogHeader>
+                        <div className="flex-1 w-full h-full bg-muted">
+                          <iframe 
+                            src={cert.link} 
+                            className="w-full h-full border-none"
+                            title={cert.title}
+                          />
+                        </div>
+                      </DialogContent>
+                    </Dialog>
                   )}
                 </div>
                 <p className="text-primary mb-1">{cert.institution}</p>
