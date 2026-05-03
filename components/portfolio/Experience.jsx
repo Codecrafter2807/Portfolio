@@ -41,7 +41,8 @@ const certifications = [
     title: "Web Development in Python",
     institution: "Webdox Computer Institute",
     credentialId: "Cert. No. ICI/1161736/21",
-    description: "Completed 45-day intensive training covering HTML, CSS, Python, Django, and MySQL with Grade A (166/200)."
+    description: "Completed 45-day intensive training covering HTML, CSS, Python, Django, and MySQL with Grade A (166/200).",
+    link: "/webdox.pdf"
   }
 ]
 
@@ -139,9 +140,22 @@ export default function Experience() {
               className="group relative p-6 rounded-lg hover:bg-card/50 transition-all duration-300"
             >
               <div>
-                <h3 className="text-foreground font-semibold mb-1">
-                  {cert.title}
-                </h3>
+                <div className="flex items-center justify-between mb-1 gap-4">
+                  <h3 className="text-foreground font-semibold">
+                    {cert.title}
+                  </h3>
+                  {cert.link && (
+                    <a 
+                      href={cert.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-medium text-primary hover:underline flex items-center gap-1"
+                    >
+                      View Certificate
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  )}
+                </div>
                 <p className="text-primary mb-1">{cert.institution}</p>
                 <p className="text-xs text-muted-foreground mb-3">{cert.credentialId}</p>
                 <p className="text-sm text-muted-foreground leading-relaxed italic border-l-2 border-primary/20 pl-4">
