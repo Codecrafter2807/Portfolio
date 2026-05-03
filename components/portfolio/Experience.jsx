@@ -36,6 +36,15 @@ const education = [
   }
 ]
 
+const certifications = [
+  {
+    title: "Web Development in Python",
+    institution: "Webdox Computer Institute",
+    credentialId: "Cert. No. ICI/1161736/21",
+    description: "Completed 45-day intensive training covering HTML, CSS, Python, Django, and MySQL with Grade A (166/200)."
+  }
+]
+
 export default function Experience() {
   return (
     <section id="experience" className="py-24 px-6 lg:px-0">
@@ -114,6 +123,30 @@ export default function Experience() {
                 <p className="text-primary mb-1">{edu.institution}</p>
                 <p className="text-sm text-muted-foreground">{edu.location}</p>
                 <p className="text-sm text-muted-foreground mt-2">Focus: {edu.focus}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Certifications */}
+        <h2 className="text-sm font-medium tracking-widest text-primary mt-16 mb-8 uppercase">
+          Certifications
+        </h2>
+        <div className="space-y-6">
+          {certifications.map((cert, index) => (
+            <div 
+              key={index}
+              className="group relative p-6 rounded-lg hover:bg-card/50 transition-all duration-300"
+            >
+              <div>
+                <h3 className="text-foreground font-semibold mb-1">
+                  {cert.title}
+                </h3>
+                <p className="text-primary mb-1">{cert.institution}</p>
+                <p className="text-xs text-muted-foreground mb-3">{cert.credentialId}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed italic border-l-2 border-primary/20 pl-4">
+                  {cert.description}
+                </p>
               </div>
             </div>
           ))}
