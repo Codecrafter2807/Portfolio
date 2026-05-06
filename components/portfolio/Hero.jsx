@@ -31,7 +31,7 @@ export default function Hero() {
               />
             </div>
             
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-6 leading-tight">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-foreground mb-6 leading-tight">
               Full Stack Developer building <span className="text-primary border-b-4 border-primary/20">scalable AI-powered</span> web applications
             </h1>
             

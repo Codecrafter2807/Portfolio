@@ -4,6 +4,20 @@ import { ExternalLink, Github, Bot, Calendar, Stethoscope, FileText, Users } fro
 
 const projects = [
   {
+    icon: Calendar,
+    title: "AI Meeting Notes Generator",
+    description: "Converts multi-speaker meetings into structured summaries and action items in real-time.",
+    impact: [
+      "Reduced manual note-taking effort by approximately 80%",
+      "Handles long-form audio with chunked streaming transcription pipelines",
+      "Optimized LLM inference latency via Groq (Llama 3) for near-instant results"
+    ],
+    technologies: ["Python", "Next.js", "OpenAI Whisper", "Groq", "Django", "PyAnnote"],
+    github: null,
+    live: "https://meet-ai-frontend-xi.vercel.app",
+    featured: true
+  },
+  {
     icon: Bot,
     title: "AI-First CRM: HCP Interaction Module",
     subtitle: "Flagship SaaS Product",
@@ -18,20 +32,6 @@ const projects = [
     live: null,
     featured: true,
     isFlagship: true
-  },
-  {
-    icon: Calendar,
-    title: "AI Meeting Notes Generator",
-    description: "Converts multi-speaker meetings into structured summaries and action items in real-time.",
-    impact: [
-      "Reduced manual note-taking effort by approximately 80%",
-      "Handles long-form audio with chunked streaming transcription pipelines",
-      "Optimized LLM inference latency via Groq (Llama 3) for near-instant results"
-    ],
-    technologies: ["Python", "Next.js", "OpenAI Whisper", "Groq", "Django", "PyAnnote"],
-    github: null,
-    live: "https://meet-ai-frontend-xi.vercel.app",
-    featured: true
   },
   {
     icon: FileText,
@@ -119,13 +119,13 @@ export default function Projects() {
                     </div>
                   </div>
                   
-                  <p className="text-foreground/80 font-medium mb-4 leading-relaxed">
+                  <p className="text-sm sm:text-base text-foreground/80 font-medium mb-4 leading-relaxed">
                     {project.description}
                   </p>
 
-                  <ul className="space-y-2 mb-6">
+                  <ul className="space-y-1.5 sm:space-y-2 mb-6">
                     {project.impact?.map((point, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-muted-foreground">
                         <span className="text-primary font-bold">✓</span>
                         {point}
                       </li>
