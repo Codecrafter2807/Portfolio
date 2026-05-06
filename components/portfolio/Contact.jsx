@@ -41,11 +41,10 @@ export default function Contact() {
           {/* Left Column - Message */}
           <div>
             <h3 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 text-balance">
-              {"Let's"} work together
+              🚀 Let’s build something impactful
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              If you would like to discuss a project or just say hi, {"I'm"} always 
-              down to chat. Feel free to reach out through any of the channels below.
+              I’m open to internships and full-time roles. If you would like to discuss a project or just say hi, I’m always down to chat.
             </p>
             
             <div className="flex items-center gap-2 text-muted-foreground">

@@ -50,8 +50,8 @@ export default function Experience() {
   return (
     <section id="experience" className="py-24 px-6 lg:px-0">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-sm font-medium tracking-widest text-primary mb-8 uppercase">
-          Experience
+        <h2 className="text-4xl font-bold text-foreground mb-12 tracking-tight">
+          Work <span className="text-primary">Experience</span>
         </h2>
 
         {/* Work Experience */}
@@ -105,7 +105,7 @@ export default function Experience() {
         </div>
 
         {/* Education */}
-        <h2 className="text-sm font-medium tracking-widest text-primary mb-8 uppercase">
+        <h2 className="text-4xl font-bold text-foreground mt-16 mb-12 tracking-tight">
           Education
         </h2>
         <div className="space-y-6">
@@ -130,7 +130,7 @@ export default function Experience() {
         </div>
 
         {/* Certifications */}
-        <h2 className="text-sm font-medium tracking-widest text-primary mt-16 mb-8 uppercase">
+        <h2 className="text-4xl font-bold text-foreground mt-16 mb-12 tracking-tight">
           Certifications
         </h2>
         <div className="space-y-6">

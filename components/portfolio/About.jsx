@@ -29,8 +29,8 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6 lg:px-0">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-sm font-medium tracking-widest text-primary mb-8 uppercase">
-          About
+        <h2 className="text-4xl font-bold text-foreground mb-12 tracking-tight">
+          Solving real business problems <span className="text-primary">using AI + Full Stack</span>
         </h2>
         
         <div className="grid gap-8">

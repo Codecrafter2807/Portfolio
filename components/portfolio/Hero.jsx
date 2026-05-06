@@ -31,31 +31,35 @@ export default function Hero() {
               />
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-4">
-              Harshit Jain
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-foreground mb-6">
+              Full Stack Developer building <span className="text-primary">scalable AI-powered</span> web applications
             </h1>
-            <h2 className="text-xl sm:text-2xl font-medium text-primary mb-6">
-              Full-Stack AI Engineer
-            </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-8">
-              Building production-ready web apps powered by LLMs, React/Next.js, and FastAPI/Django.
+            <p className="text-muted-foreground text-lg sm:text-xl leading-relaxed max-w-2xl mb-10">
+              I help businesses automate workflows and build production-ready SaaS products using React, Django, and modern AI tools.
             </p>
             
-            {/* Location */}
-            <div className="flex items-center gap-2 text-muted-foreground mb-8">
-              <MapPin className="w-4 h-4" />
-              <span className="text-sm">Jalandhar, Punjab, India</span>
+            <div className="flex flex-wrap gap-4 mb-12">
+              <button
+                onClick={scrollToAbout}
+                className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 shadow-lg shadow-primary/20"
+              >
+                View Projects
+              </button>
+              <a
+                href="#contact"
+                className="px-8 py-3 rounded-full bg-secondary text-secondary-foreground font-semibold hover:bg-secondary/80 transition-all duration-200 border border-border"
+              >
+                Hire Me / Contact
+              </a>
+              <a
+                href="/harshit_resume (3).pdf"
+                download="Harshit_Jain_Resume.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-primary/20 hover:bg-primary/5 transition-all duration-200 text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                <span>Resume</span>
+              </a>
             </div>
-
-            <a
-              href="/harshit_resume (3).pdf"
-              download="Harshit_Jain_Resume.pdf"
-              className="inline-flex items-center gap-2 px-5 py-2.5 mb-8 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
-              aria-label="Download CV"
-            >
-              <Download className="w-4 h-4" />
-              <span className="text-sm font-medium">Download Resume</span>
-            </a>
             
             {/* Social Links */}
             <div className="flex items-center gap-5">

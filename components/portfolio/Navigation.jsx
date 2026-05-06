@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 
 const navItems = [
   { label: "ABOUT", href: "#about" },
+  { label: "ACHIEVEMENTS", href: "#achievements" },
   { label: "EXPERIENCE", href: "#experience" },
   { label: "PROJECTS", href: "#projects" },
   { label: "SKILLS", href: "#skills" },

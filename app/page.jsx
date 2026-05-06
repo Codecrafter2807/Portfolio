@@ -5,6 +5,7 @@ import ThemeToggle from "@/components/portfolio/ThemeToggle"
 import About from "@/components/portfolio/About"
 import Experience from "@/components/portfolio/Experience"
 import Projects from "@/components/portfolio/Projects"
+import Achievements from "@/components/portfolio/Achievements"
 import Skills from "@/components/portfolio/Skills"
 import Contact from "@/components/portfolio/Contact"
 import Footer from "@/components/portfolio/Footer"
@@ -29,6 +30,7 @@ export default function Home() {
       <main className="relative lg:pl-48">
         <Hero />
         <About />
+        <Achievements />
         <Experience />
         <Projects />
         <Skills />

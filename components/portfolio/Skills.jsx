@@ -2,24 +2,20 @@
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: ["Python", "JavaScript (ES6+)", "HTML5", "CSS3", "SQL"]
+    title: "Frontend",
+    skills: ["React.js", "Next.js", "Tailwind CSS", "Redux Toolkit", "Bootstrap", "HTML5", "CSS3", "JavaScript (ES6+)"]
   },
   {
-    title: "Frameworks & Libraries",
-    skills: ["React.js", "Next.js", "FastAPI", "Django", "Express.js", "Tailwind CSS", "Redux Toolkit", "SQLAlchemy", "Pandas", "NumPy", "Jupyter", "Matplotlib", "Bootstrap"]
+    title: "Backend",
+    skills: ["Django", "FastAPI", "Express.js", "MySQL", "MongoDB", "SQLite", "SQLAlchemy", "Python", "SQL"]
   },
   {
-    title: "Databases",
-    skills: ["MySQL", "MongoDB", "SQLite"]
+    title: "AI Integration",
+    skills: ["LangGraph", "LangChain", "Groq (Llama 3)", "OpenAI Whisper", "NLP Pipelines", "Speaker Diarization", "Pandas", "NumPy"]
   },
   {
-    title: "AI/ML Tools",
-    skills: ["LangGraph", "LangChain", "Groq (Llama 3)", "OpenAI Whisper", "NLP Pipelines", "Speaker Diarization"]
-  },
-  {
-    title: "Tools & Platforms",
-    skills: ["Git", "GitHub", "VS Code", "Postman", "Vercel", "Render", "Hugging Face Spaces", "AWS"]
+    title: "Deployment & Tools",
+    skills: ["AWS", "Vercel", "Render", "Hugging Face Spaces", "Git", "GitHub", "VS Code", "Postman"]
   }
 ]
 
@@ -27,8 +23,8 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 px-6 lg:px-0">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-sm font-medium tracking-widest text-primary mb-8 uppercase">
-          Skills & Technologies
+        <h2 className="text-4xl font-bold text-foreground mb-12 tracking-tight">
+          Skills & <span className="text-primary">Technologies</span>
         </h2>
 
         <div className="grid gap-8">
@@ -54,10 +50,10 @@ export default function Skills() {
 
         {/* Languages section */}
         <div className="mt-16 pt-8 border-t border-border">
-          <h3 className="text-foreground font-semibold mb-4 flex items-center gap-3">
-            <span className="w-8 h-px bg-primary" />
-            Languages
-          </h3>
+        <h3 className="text-2xl font-bold text-foreground mb-8 flex items-center gap-3">
+          <span className="w-8 h-px bg-primary" />
+          Languages I Speak
+        </h3>
           <div className="flex flex-wrap gap-6 pl-11">
             <div className="text-center">
               <div className="text-2xl font-bold text-foreground mb-1">English</div>
