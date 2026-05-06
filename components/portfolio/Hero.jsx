@@ -31,9 +31,12 @@ export default function Hero() {
               />
             </div>
             
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-foreground mb-6 leading-tight">
-              Full Stack Developer building <span className="text-primary border-b-4 border-primary/20">scalable AI-powered</span> web applications
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-2">
+              Full Stack Developer
             </h1>
+            <p className="text-xl sm:text-2xl lg:text-3xl font-medium text-muted-foreground mb-8 leading-tight">
+              building <span className="text-primary border-b-2 border-primary/20">scalable AI-powered</span> web applications
+            </p>
             
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
               I help businesses automate workflows and build production-ready SaaS products using React, Django, and modern AI tools.
