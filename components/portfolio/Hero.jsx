@@ -48,8 +48,8 @@ export default function Hero() {
             </div>
 
             <a
-              href="/harshit_resume-4.pdf"
-              download="harshit_resume-4.pdf"
+              href="/harshit_resume (3).pdf"
+              download="Harshit_Jain_Resume.pdf"
               className="inline-flex items-center gap-2 px-5 py-2.5 mb-8 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
               aria-label="Download CV"
             >
@@ -90,19 +90,22 @@ export default function Hero() {
           {/* Right Column - Main Content Preview */}
           <div className="lg:w-1/2 mt-12 lg:mt-0">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              {"I'm"} a Full-Stack AI Engineer specializing in building production-ready applications 
-              powered by Large Language Models. I focus on creating seamless integrations between 
-              advanced AI capabilities and modern web architectures.
+              {"I'm"} a <span className="text-foreground font-medium">Full-Stack AI Engineer</span> with expertise in 
+              React, Next.js, Django, FastAPI, and MySQL. I specialize in integrating AI capabilities 
+              into real-world web applications, creating seamless connections between advanced LLMs and 
+              modern web architectures.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Currently, {"I'm"} an MCA finalist at <span className="text-foreground font-medium">Lyallpur Khalsa College of Engineering</span>, 
-              where {"I've"} developed expertise in <span className="text-foreground font-medium">LangGraph, Groq, and OpenAI Whisper</span>. 
-              My work spans CRM automation, meeting intelligence, and healthcare platforms.
+              where {"I've"} built and deployed production-ready projects ranging from 
+              <span className="text-foreground font-medium"> CRM modules</span> and 
+              <span className="text-foreground font-medium"> healthcare platforms</span> to 
+              <span className="text-foreground font-medium"> meeting intelligence tools</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In my recent role at <span className="text-foreground font-medium">GK Plastic Industries</span>, 
-              I served as a <span className="text-foreground font-medium">Web Developer & Digital Marketing Associate</span>, 
-              where I optimized the company's digital presence and reduced design costs by 80% through in-house innovation.
+              My work focuses on leveraging tools like <span className="text-foreground font-medium">LangGraph, Groq, and OpenAI Whisper</span> 
+              to solve complex problems through practical AI integration. I am passionate about bridging 
+              the gap between modern development practices and cutting-edge AI features.
             </p>
           </div>
         </div>

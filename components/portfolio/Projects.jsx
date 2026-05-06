@@ -6,7 +6,7 @@ const projects = [
   {
     icon: Calendar,
     title: "AI Meeting Notes Generator",
-    description: "Production-deployed system converting multi-speaker audio into structured notes, action items, and summaries. Built chunked streaming transcription pipeline with OpenAI Whisper, enabling real-time feedback on long-form audio. Optimized LLM inference latency via Groq APIs (Llama 3).",
+    description: "Production-deployed system converting multi-speaker audio into structured notes, action items, and summaries. Built chunked streaming transcription pipeline with OpenAI Whisper, enabling real-time feedback. Optimized LLM inference via Groq APIs (Llama 3) and designed speaker diarization with PyAnnote for timestamp alignment.",
     technologies: ["Python", "Next.js", "Whisper", "Groq", "Django", "PyAnnote"],
     github: null,
     live: "https://meet-ai-frontend-xi.vercel.app",
