@@ -28,7 +28,7 @@ export default function Hero() {
           />
         </div>
         
-        <h1 className="text-4xl sm:text-6xl lg:text-8xl font-extrabold tracking-tight text-foreground mb-8 text-balance">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-8 text-balance">
           Full Stack Developer building <span className="text-primary">scalable AI-powered</span> web applications
         </h1>
         
