@@ -16,76 +16,81 @@ export default function Hero() {
         <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       </div>
       
-      <div className="relative max-w-5xl mx-auto w-full text-center">
-        {/* Profile Image */}
-        <div className="relative w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-10 rounded-full overflow-hidden ring-4 ring-primary/20 ring-offset-4 ring-offset-background shadow-2xl">
-          <Image
-            src="/images/profile.jpeg"
-            alt="Harshit Jain - Full-Stack Developer"
-            fill
-            className="object-cover object-top"
-            priority
-          />
-        </div>
-        
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-8 text-balance">
-          Full Stack Developer building <span className="text-primary">scalable AI-powered</span> web applications
-        </h1>
-        
-        <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto mb-12 text-balance">
-          I help businesses automate workflows and build production-ready SaaS products using React, Django, and modern AI tools.
-        </p>
-        
-        <div className="flex flex-wrap items-center justify-center gap-6 mb-16">
-          <button
-            onClick={scrollToAbout}
-            className="px-10 py-4 rounded-full bg-primary text-primary-foreground font-bold hover:bg-primary/90 transition-all duration-300 shadow-xl shadow-primary/20 hover:scale-105 active:scale-95"
-          >
-            View Projects
-          </button>
-          <a
-            href="#contact"
-            className="px-10 py-4 rounded-full bg-secondary text-secondary-foreground font-bold hover:bg-secondary/80 transition-all duration-300 border border-border hover:scale-105 active:scale-95"
-          >
-            Hire Me / Contact
-          </a>
-          <a
-            href="/harshit_resume (3).pdf"
-            download="Harshit_Jain_Resume.pdf"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-primary/20 hover:bg-primary/5 transition-all duration-300 text-sm font-semibold"
-          >
-            <Download className="w-4 h-4" />
-            <span>Download Resume</span>
-          </a>
-        </div>
-        
-        {/* Social Links */}
-        <div className="flex items-center justify-center gap-8">
-          <a 
-            href="https://github.com/Codecrafter2807" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
-            aria-label="GitHub Profile"
-          >
-            <Github className="w-7 h-7" />
-          </a>
-          <a 
-            href="https://www.linkedin.com/in/harshit-jain8703" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
-            aria-label="LinkedIn Profile"
-          >
-            <Linkedin className="w-7 h-7" />
-          </a>
-          <a 
-            href="mailto:hj1287091@gmail.com"
-            className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
-            aria-label="Email"
-          >
-            <Mail className="w-7 h-7" />
-          </a>
+      <div className="relative max-w-4xl mx-auto w-full">
+        <div className="flex flex-col lg:flex-row lg:gap-16 items-start">
+          {/* Left Column - Main Info */}
+          <div className="lg:w-full">
+            {/* Profile Image */}
+            <div className="relative w-28 h-28 sm:w-32 sm:h-32 mb-8 rounded-full overflow-hidden ring-4 ring-primary/20 ring-offset-4 ring-offset-background shadow-lg">
+              <Image
+                src="/images/profile.jpeg"
+                alt="Harshit Jain - Full-Stack Developer"
+                fill
+                className="object-cover object-top"
+                priority
+              />
+            </div>
+            
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-6 leading-tight">
+              Full Stack Developer building <span className="text-primary border-b-4 border-primary/20">scalable AI-powered</span> web applications
+            </h1>
+            
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
+              I help businesses automate workflows and build production-ready SaaS products using React, Django, and modern AI tools.
+            </p>
+            
+            <div className="flex flex-wrap items-center gap-4 mb-12">
+              <button
+                onClick={scrollToAbout}
+                className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 shadow-lg shadow-primary/20"
+              >
+                View Projects
+              </button>
+              <a
+                href="#contact"
+                className="px-8 py-3 rounded-lg bg-secondary text-secondary-foreground font-semibold hover:bg-secondary/80 transition-all duration-200 border border-border"
+              >
+                Hire Me / Contact
+              </a>
+              <a
+                href="/harshit_resume (3).pdf"
+                download="Harshit_Jain_Resume.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary/20 hover:bg-primary/5 transition-all duration-200 text-sm font-medium"
+              >
+                <Download className="w-4 h-4" />
+                <span>Resume</span>
+              </a>
+            </div>
+            
+            {/* Social Links */}
+            <div className="flex items-center gap-6">
+              <a 
+                href="https://github.com/Codecrafter2807" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-all duration-200"
+                aria-label="GitHub Profile"
+              >
+                <Github className="w-6 h-6" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/harshit-jain8703" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-all duration-200"
+                aria-label="LinkedIn Profile"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a 
+                href="mailto:hj1287091@gmail.com"
+                className="text-muted-foreground hover:text-primary transition-all duration-200"
+                aria-label="Email"
+              >
+                <Mail className="w-6 h-6" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
