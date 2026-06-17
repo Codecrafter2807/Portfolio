@@ -20,8 +20,8 @@ const highlights = [
   },
   {
     icon: GraduationCap,
-    title: "MCA Finalist",
-    description: "Currently pursuing Master of Computer Applications at Lyallpur Khalsa College of Engineering."
+    title: "MCA Graduate",
+    description: "Completed Master of Computer Applications at Lyallpur Khalsa College of Engineering."
   }
 ]
 
