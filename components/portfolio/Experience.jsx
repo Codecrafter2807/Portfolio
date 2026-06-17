@@ -5,23 +5,23 @@ import { ExternalLink } from "lucide-react"
 const experiences = [
   {
     period: "July 2024 — February 2026",
-    title: "Web Developer & Digital Marketing Associate",
+    title: "Full Stack Web Developer",
     company: "GK Plastic Industries",
     location: "Jalandhar, Punjab, India",
-    description: "Developed and maintained the company's B2B digital presence across 100+ product SKUs, driving sales conversions through a streamlined content pipeline.",
+    description: "Developed and maintained a responsive business website for 100+ industrial products, improving product discoverability and reducing manual update effort.",
     achievements: [
-      "Developed and maintained company website, driving improved B2B digital presence across 100+ product SKUs.",
-      "Cut external design costs by 80% by owning all creatives, product visuals, and marketing collateral in-house.",
-      "Managed end-to-end content pipeline — from product shoots to live listings — directly supporting sales conversions."
+      "Developed and maintained a responsive business website using React and Tailwind CSS for 100+ industrial products, improving product discoverability and reducing manual update effort by 35%.",
+      "Improved UI responsiveness and SEO structure, enhancing product visibility and customer engagement.",
+      "Collaborated with management to streamline product update workflows and reduce manual content management effort."
     ],
-    skills: ["Web Development", "Digital Marketing", "Content Pipeline", "B2B Strategy"],
+    skills: ["React", "Tailwind CSS", "SEO", "Web Development"],
     link: null
   }
 ]
 
 const education = [
   {
-    period: "July 2024 — June 2026",
+    period: "July 2024 — May 2026",
     degree: "Master of Computer Applications (MCA)",
     institution: "Lyallpur Khalsa College of Engineering",
     location: "Jalandhar, Punjab, India",
@@ -41,7 +41,7 @@ const certifications = [
     title: "Web Development in Python",
     institution: "Webdox Computer Institute",
     credentialId: "Cert. No. ICI/1161736/21",
-    description: "Completed 45-day intensive training covering HTML, CSS, Python, Django, and MySQL with Grade A (166/200).",
+    description: "Completed training in web development covering HTML, CSS, Python, Django, and MySQL. ISO 9001-2015 certified institute.",
     link: "/webdox.pdf"
   }
 ]

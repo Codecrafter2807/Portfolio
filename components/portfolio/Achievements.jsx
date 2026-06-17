@@ -6,22 +6,22 @@ const achievements = [
   {
     icon: Clock,
     title: "83% Time Reduction",
-    description: "Reduced supervisor feedback assessment time from 60 minutes to under 10 minutes using structured LLM drafts."
+    description: "Reduced supervisor feedback assessment time from 60 minutes to under 10 minutes via structured LLM drafts."
   },
   {
     icon: TrendingDown,
-    title: "80% Cost Savings",
-    description: "Cut external design costs by 80% at GK Plastic Industries by bringing all creative and digital marketing in-house."
+    title: "35% Less Manual Effort",
+    description: "Reduced manual update effort by 35% at GK Plastic Industries by improving product update workflows and content management."
   },
   {
     icon: Zap,
-    title: "Real-time AI Processing",
-    description: "Built chunked streaming transcription pipelines handling long-form audio with near-instant summarization."
+    title: "40% Faster Data Processing",
+    description: "Improved data processing efficiency by 40% with a chunked streaming transcription pipeline using OpenAI Whisper."
   },
   {
     icon: Trophy,
-    title: "Production Ready",
-    description: "Successfully deployed multiple full-stack applications with real-world users in CRM and Meeting Intelligence."
+    title: "Production Deployed",
+    description: "Successfully deployed multiple full-stack AI applications with real-world users in CRM and Meeting Intelligence domains."
   }
 ]
 

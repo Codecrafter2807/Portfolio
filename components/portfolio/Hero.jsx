@@ -56,7 +56,7 @@ export default function Hero() {
                 Hire Me / Contact
               </a>
               <a
-                href="/harshit_resume (3).pdf"
+                href="/harshit_resume10 (1).pdf"
                 download="Harshit_Jain_Resume.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary/20 hover:bg-primary/5 transition-all duration-200 text-sm font-medium"
               >

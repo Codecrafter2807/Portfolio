@@ -2,20 +2,28 @@
 
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["React.js", "Next.js", "Tailwind CSS", "Redux Toolkit", "Bootstrap", "HTML5", "CSS3", "JavaScript (ES6+)"]
+    title: "Languages",
+    skills: ["Python", "JavaScript (ES6+)", "HTML5", "CSS3", "SQL"]
   },
   {
-    title: "Backend",
-    skills: ["Django", "FastAPI", "Express.js", "MySQL", "MongoDB", "SQLite", "SQLAlchemy", "Python", "SQL"]
+    title: "Frameworks & Libraries",
+    skills: ["React.js", "Next.js", "FastAPI", "Django", "Express.js", "Tailwind CSS", "Redux Toolkit", "Bootstrap"]
   },
   {
-    title: "AI Integration",
-    skills: ["LangGraph", "LangChain", "Groq (Llama 3)", "OpenAI Whisper", "NLP Pipelines", "Speaker Diarization", "Pandas", "NumPy"]
+    title: "Databases",
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]
   },
   {
-    title: "Deployment & Tools",
-    skills: ["AWS", "Vercel", "Render", "Hugging Face Spaces", "Git", "GitHub", "VS Code", "Postman"]
+    title: "AI/ML Tools",
+    skills: ["Groq (Llama 3)", "OpenAI Whisper", "NLP Pipelines", "Speaker Diarization", "LangGraph", "PyAnnote"]
+  },
+  {
+    title: "Tools & Platforms",
+    skills: ["Git", "GitHub", "VS Code", "Postman"]
+  },
+  {
+    title: "Deployment",
+    skills: ["Vercel", "Render", "Hugging Face Spaces", "AWS"]
   }
 ]
 

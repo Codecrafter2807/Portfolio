@@ -6,11 +6,11 @@ const projects = [
   {
     icon: Calendar,
     title: "AI Meeting Notes Generator",
-    description: "Converts multi-speaker meetings into structured summaries and action items in real-time.",
+    description: "Production-deployed system converting multi-speaker audio into structured notes, action items, and summaries.",
     impact: [
-      "Reduced manual note-taking effort by approximately 80%",
-      "Handles long-form audio with chunked streaming transcription pipelines",
-      "Optimized LLM inference latency via Groq (Llama 3) for near-instant results"
+      "Engineered a chunked streaming transcription pipeline utilizing OpenAI Whisper, enabling real-time feedback on lengthy audio files and improving data processing efficiency by 40%.",
+      "Optimized LLM inference latency via Groq APIs (Llama 3), achieving faster summarization vs. standard endpoints.",
+      "Designed speaker diarization pipeline with PyAnnote for per-speaker timestamp alignment across multi-participant meetings."
     ],
     technologies: ["Python", "Next.js", "OpenAI Whisper", "Groq", "Django", "PyAnnote"],
     github: null,
@@ -21,13 +21,12 @@ const projects = [
     icon: Bot,
     title: "AI-First CRM: HCP Interaction Module",
     subtitle: "Flagship SaaS Product",
-    description: "A comprehensive SaaS-level CRM designed for pharmaceutical representatives to automate data entry and patient-doctor interaction logging using AI.",
+    description: "AI-first CRM for pharma reps using a LangGraph + Groq (Llama-3.3-70b) assistant that auto-fills forms from natural language.",
     impact: [
-      "Automated complex form-filling from natural language conversations using LangGraph",
-      "Integrated real-time medical entity extraction for drugs, symptoms, and specialties",
-      "Features a clean, production-ready UI with role-based access and smart data merging"
+      "Implemented smart merge logic and medical entity extraction to auto-identify drug names, symptoms, and specialties.",
+      "Stack: React (Vite) + Redux Toolkit frontend, FastAPI/SQLAlchemy backend, MySQL database."
     ],
-    technologies: ["React (Vite)", "FastAPI", "LangGraph", "Groq", "MySQL", "SQLAlchemy"],
+    technologies: ["React (Vite)", "Redux Toolkit", "FastAPI", "LangGraph", "Groq", "MySQL", "SQLAlchemy"],
     github: null,
     live: null,
     featured: true,
@@ -38,25 +37,23 @@ const projects = [
     title: "Supervisor Feedback Analyzer",
     description: "An AI-powered assessment tool that automates the analysis of supervisor feedback transcripts against professional rubrics.",
     impact: [
-      "Reduced supervisor feedback assessment time from 60 mins to under 10 mins",
-      "Implemented multi-stage JSON extraction with robust regex fallbacks",
-      "Deployed locally using Ollama and Llama 3.2 for data privacy and efficiency"
+      "Reduced supervisor feedback assessment time from 60 mins to under 10 mins via structured LLM drafts.",
+      "Multi-stage JSON extraction with regex fallbacks for reliable output from Llama 3.2 (3B) local model.",
+      "Confidence scoring and bias detection badges to prevent automation bias and enforce human review."
     ],
-    technologies: ["React", "Django REST", "Llama 3.2", "Ollama", "Regex"],
+    technologies: ["React", "Django REST", "Llama 3.2", "Ollama"],
     github: null,
     live: null,
     featured: true
   },
   {
     icon: Stethoscope,
-    title: "Doctor Appointment Booking App",
-    description: "Full-stack healthcare platform for appointment scheduling and patient reviews.",
+    title: "Doctor Appointment Booking & Review App",
+    description: "Full-stack booking and review platform with user auth, appointment scheduling, and patient reviews.",
     impact: [
-      "Designed a responsive, mobile-first UI for seamless patient booking experience",
-      "Built robust RESTful APIs with secure user authentication and scheduling logic",
-      "Implemented a dynamic review system with data persistence in MongoDB"
+      "Designed RESTful APIs with Express.js and a responsive mobile-first UI using React.js and Tailwind CSS."
     ],
-    technologies: ["React.js", "Tailwind CSS", "Express.js", "MongoDB", "Node.js"],
+    technologies: ["React.js", "Tailwind CSS", "Express.js", "MongoDB"],
     github: null,
     live: null,
     featured: true
