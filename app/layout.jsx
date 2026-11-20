@@ -9,13 +9,13 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Harshit Jain | Full-Stack AI Engineer',
-  description: 'Full-Stack AI Engineer building production-ready web apps powered by LLMs, React/Next.js, and FastAPI/Django.',
-  keywords: ['Full-Stack AI Engineer', 'React.js', 'Next.js', 'FastAPI', 'Django', 'LangGraph', 'Groq', 'AI', 'Web Development'],
+  title: 'Harshit Jain | IT Support & Network Administrator',
+  description: 'IT Support and Network Administrator experienced in Windows Server, Hyper-V, Active Directory, network troubleshooting, firewall configuration, and VPN support.',
+  keywords: ['IT Support', 'Network Administrator', 'Windows Server', 'Hyper-V', 'Active Directory', 'VPN', 'Firewall Configuration', 'Python'],
   authors: [{ name: 'Harshit Jain' }],
   openGraph: {
-    title: 'Harshit Jain | Full-Stack AI Engineer',
-    description: 'Full-Stack AI Engineer building production-ready web apps powered by LLMs, React/Next.js, and FastAPI/Django.',
+    title: 'Harshit Jain | IT Support & Network Administrator',
+    description: 'IT Support and Network Administrator experienced in Windows Server, Hyper-V, Active Directory, network troubleshooting, firewall configuration, and VPN support.',
     type: 'website',
   },
 }

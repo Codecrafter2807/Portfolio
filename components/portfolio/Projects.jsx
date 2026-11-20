@@ -1,18 +1,13 @@
 "use client"
 
-import { ExternalLink, Github, Bot, Calendar, Stethoscope, FileText, Users } from "lucide-react"
+import { ExternalLink, Github, Bot, Calendar } from "lucide-react"
 
 const projects = [
   {
     icon: Calendar,
     title: "AI Meeting Notes Generator",
-    description: "Production-deployed system converting multi-speaker audio into structured notes, action items, and summaries.",
-    impact: [
-      "Engineered a chunked streaming transcription pipeline utilizing OpenAI Whisper, enabling real-time feedback on lengthy audio files and improving data processing efficiency by 40%.",
-      "Optimized LLM inference latency via Groq APIs (Llama 3), achieving faster summarization vs. standard endpoints.",
-      "Designed speaker diarization pipeline with PyAnnote for per-speaker timestamp alignment across multi-participant meetings."
-    ],
-    technologies: ["Python", "Next.js", "OpenAI Whisper", "Groq", "Django", "PyAnnote"],
+    description: "Developed an AI-powered application to transcribe meetings and generate summaries, notes, and action items.",
+    technologies: ["Python", "Django", "Next.js", "Whisper", "Groq"],
     github: null,
     live: "https://meet-ai-frontend-xi.vercel.app",
     featured: true
@@ -20,40 +15,8 @@ const projects = [
   {
     icon: Bot,
     title: "AI-First CRM: HCP Interaction Module",
-    subtitle: "Flagship SaaS Product",
-    description: "AI-first CRM for pharma reps using a LangGraph + Groq (Llama-3.3-70b) assistant that auto-fills forms from natural language.",
-    impact: [
-      "Implemented smart merge logic and medical entity extraction to auto-identify drug names, symptoms, and specialties.",
-      "Stack: React (Vite) + Redux Toolkit frontend, FastAPI/SQLAlchemy backend, MySQL database."
-    ],
-    technologies: ["React (Vite)", "Redux Toolkit", "FastAPI", "LangGraph", "Groq", "MySQL", "SQLAlchemy"],
-    github: null,
-    live: null,
-    featured: true,
-    isFlagship: true
-  },
-  {
-    icon: FileText,
-    title: "Supervisor Feedback Analyzer",
-    description: "An AI-powered assessment tool that automates the analysis of supervisor feedback transcripts against professional rubrics.",
-    impact: [
-      "Reduced supervisor feedback assessment time from 60 mins to under 10 mins via structured LLM drafts.",
-      "Multi-stage JSON extraction with regex fallbacks for reliable output from Llama 3.2 (3B) local model.",
-      "Confidence scoring and bias detection badges to prevent automation bias and enforce human review."
-    ],
-    technologies: ["React", "Django REST", "Llama 3.2", "Ollama"],
-    github: null,
-    live: null,
-    featured: true
-  },
-  {
-    icon: Stethoscope,
-    title: "Doctor Appointment Booking & Review App",
-    description: "Full-stack booking and review platform with user auth, appointment scheduling, and patient reviews.",
-    impact: [
-      "Designed RESTful APIs with Express.js and a responsive mobile-first UI using React.js and Tailwind CSS."
-    ],
-    technologies: ["React.js", "Tailwind CSS", "Express.js", "MongoDB"],
+    description: "Built an AI-powered CRM module to extract medical information and automate form filling.",
+    technologies: ["Python", "FastAPI", "LangGraph", "React", "MySQL"],
     github: null,
     live: null,
     featured: true
@@ -119,15 +82,6 @@ export default function Projects() {
                   <p className="text-sm sm:text-base text-foreground/80 font-medium mb-4 leading-relaxed">
                     {project.description}
                   </p>
-
-                  <ul className="space-y-1.5 sm:space-y-2 mb-6">
-                    {project.impact?.map((point, i) => (
-                      <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-muted-foreground">
-                        <span className="text-primary font-bold">✓</span>
-                        {point}
-                      </li>
-                    ))}
-                  </ul>
 
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech, i) => (

@@ -1,11 +1,15 @@
 "use client"
 
-import { Github, Linkedin, Mail, MapPin, ChevronDown, Download } from "lucide-react"
+import { Github, Linkedin, Mail, ChevronDown, Download } from "lucide-react"
 import Image from "next/image"
 
 export default function Hero() {
   const scrollToAbout = () => {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  const scrollToProjects = () => {
+    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -32,19 +36,19 @@ export default function Hero() {
             </div>
             
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground mb-2">
-              Full Stack Developer
+              IT Support & Network Administrator
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl font-medium text-muted-foreground mb-8 leading-tight">
-              building <span className="text-primary border-b-2 border-primary/20">scalable AI-powered</span> web applications
+              keeping systems <span className="text-primary border-b-2 border-primary/20">reliable and connected</span>
             </p>
             
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-              I help businesses automate workflows and build production-ready SaaS products using React, Django, and modern AI tools.
+              I provide hands-on IT support and network administration across Windows Server, Hyper-V, Active Directory, VPNs, and user access, with a background in Python development.
             </p>
             
             <div className="flex flex-wrap items-center gap-4 mb-12">
               <button
-                onClick={scrollToAbout}
+                onClick={scrollToProjects}
                 className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-200 shadow-lg shadow-primary/20"
               >
                 View Projects
@@ -56,7 +60,7 @@ export default function Hero() {
                 Hire Me / Contact
               </a>
               <a
-                href="/harshit_resume10 (1).pdf"
+                href="/IT%20Support%20(1).pdf"
                 download="Harshit_Jain_Resume.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary/20 hover:bg-primary/5 transition-all duration-200 text-sm font-medium"
               >

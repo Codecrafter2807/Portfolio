@@ -44,7 +44,7 @@ export default function Contact() {
               🚀 Let’s build something impactful
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              I’m open to internships and full-time roles. If you would like to discuss a project or just say hi, I’m always down to chat.
+              I’m an immediate joiner and open to remote opportunities, Chandigarh, Mohali, Delhi NCR, or relocation. Feel free to get in touch about an IT support role or project.
             </p>
             
             <div className="flex items-center gap-2 text-muted-foreground">

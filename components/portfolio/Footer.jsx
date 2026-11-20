@@ -52,7 +52,7 @@ export default function Footer() {
         {/* Interests */}
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-xs text-muted-foreground">
-            Interested in: Open Source Contribution • Software Architecture • UI/UX Design • Competitive Programming
+            Interested in: IT Support • System Administration • Network Troubleshooting • Software Development
           </p>
         </div>
       </div>

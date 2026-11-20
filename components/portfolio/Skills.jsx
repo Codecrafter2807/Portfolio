@@ -2,28 +2,32 @@
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: ["Python", "JavaScript (ES6+)", "HTML5", "CSS3", "SQL"]
+    title: "Desktop & OS Management",
+    skills: ["Microsoft Windows Desktop Management", "System Configuration", "Software Installation"]
   },
   {
-    title: "Frameworks & Libraries",
-    skills: ["React.js", "Next.js", "FastAPI", "Django", "Express.js", "Tailwind CSS", "Redux Toolkit", "Bootstrap"]
+    title: "Server Management",
+    skills: ["Windows Server", "Physical Servers", "Hyper-V Virtual Machines"]
   },
   {
-    title: "Databases",
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]
+    title: "User & Access Management",
+    skills: ["Active Directory", "Microsoft User Accounts", "Application Access Permissions"]
   },
   {
-    title: "AI/ML Tools",
-    skills: ["Groq (Llama 3)", "OpenAI Whisper", "NLP Pipelines", "Speaker Diarization", "LangGraph", "PyAnnote"]
+    title: "Monitoring & Troubleshooting",
+    skills: ["Incident Escalation and Resolution", "Troubleshooting", "User Support", "System Monitoring"]
   },
   {
-    title: "Tools & Platforms",
-    skills: ["Git", "GitHub", "VS Code", "Postman"]
+    title: "Networking & Security",
+    skills: ["VPN", "Firewall Configuration", "Network Troubleshooting", "Network Connectivity"]
   },
   {
-    title: "Deployment",
-    skills: ["Vercel", "Render", "Hugging Face Spaces", "AWS"]
+    title: "Technical Background",
+    skills: ["JavaScript", "Python", "REST APIs", "Databases"]
+  },
+  {
+    title: "Support & Applications",
+    skills: ["TMS Software", "RingCentral", "TSplus", "RDP", "Software Installation", "Desktop Management"]
   }
 ]
 

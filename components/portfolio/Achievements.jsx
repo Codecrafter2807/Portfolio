@@ -1,27 +1,27 @@
 "use client"
 
-import { Trophy, Zap, Clock, TrendingDown } from "lucide-react"
+import { ShieldCheck, Network, Server, Code2 } from "lucide-react"
 
 const achievements = [
   {
-    icon: Clock,
-    title: "83% Time Reduction",
-    description: "Reduced supervisor feedback assessment time from 60 minutes to under 10 minutes via structured LLM drafts."
+    icon: ShieldCheck,
+    title: "End-to-End IT Support",
+    description: "Supporting production systems through user assistance, software installation, incident troubleshooting, and resolution."
   },
   {
-    icon: TrendingDown,
-    title: "35% Less Manual Effort",
-    description: "Reduced manual update effort by 35% at GK Plastic Industries by improving product update workflows and content management."
+    icon: Server,
+    title: "Server & Virtualization",
+    description: "Managing Windows Server and physical servers, including Hyper-V virtual machines."
   },
   {
-    icon: Zap,
-    title: "40% Faster Data Processing",
-    description: "Improved data processing efficiency by 40% with a chunked streaming transcription pipeline using OpenAI Whisper."
+    icon: Network,
+    title: "Network & Remote Access",
+    description: "Configuring firewalls, troubleshooting VPN tunnels, and providing remote access through TSplus and RDP."
   },
   {
-    icon: Trophy,
-    title: "Production Deployed",
-    description: "Successfully deployed multiple full-stack AI applications with real-world users in CRM and Meeting Intelligence domains."
+    icon: Code2,
+    title: "Software Development Foundation",
+    description: "Applying a background in Python and JavaScript to build practical AI-powered applications."
   }
 ]
 
@@ -30,7 +30,7 @@ export default function Achievements() {
     <section id="achievements" className="py-24 px-6 lg:px-0 bg-primary/5">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-sm font-medium tracking-widest text-primary mb-8 uppercase">
-          What I’ve Achieved
+          What I Bring
         </h2>
         
         <div className="grid sm:grid-cols-2 gap-8">

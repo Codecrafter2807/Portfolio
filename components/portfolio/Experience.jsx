@@ -4,35 +4,34 @@ import { ExternalLink } from "lucide-react"
 
 const experiences = [
   {
-    period: "July 2024 — February 2026",
-    title: "Full Stack Web Developer",
-    company: "GK Plastic Industries",
-    location: "Jalandhar, Punjab, India",
-    description: "Developed and maintained a responsive business website for 100+ industrial products, improving product discoverability and reducing manual update effort.",
+    title: "IT Support & Network Administrator",
+    company: "Xpress Cargo Inc.",
+    description: "Providing end-to-end IT support and network administration to help keep production systems available.",
     achievements: [
-      "Developed and maintained a responsive business website using React and Tailwind CSS for 100+ industrial products, improving product discoverability and reducing manual update effort by 35%.",
-      "Improved UI responsiveness and SEO structure, enhancing product visibility and customer engagement.",
-      "Collaborated with management to streamline product update workflows and reduce manual content management effort."
+      "Manage TMS software, Microsoft user accounts, user creation, and access permissions.",
+      "Configure systems, install software, and manage Windows desktops.",
+      "Configure firewalls and troubleshoot VPN tunnels connecting the US office.",
+      "Manage Windows Server, physical servers, and Hyper-V virtual machines.",
+      "Create Active Directory accounts and provide remote access through TSplus and RDP.",
+      "Troubleshoot network connectivity and resolve incidents; document resolution steps with cross-functional teams."
     ],
-    skills: ["React", "Tailwind CSS", "SEO", "Web Development"],
+    skills: ["Windows Server", "Hyper-V", "Active Directory", "VPN", "Firewall", "TMS Software", "TSplus", "RDP"],
     link: null
   }
 ]
 
 const education = [
   {
-    period: "July 2024 — May 2026",
+    period: "May 2026",
     degree: "Master of Computer Applications (MCA)",
     institution: "Lyallpur Khalsa College of Engineering",
-    location: "Jalandhar, Punjab, India",
-    focus: "Computer Science"
+    location: "Jalandhar, Punjab, India"
   },
   {
-    period: "September 2021 — May 2024",
+    period: "May 2024",
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "DAV College, Jalandhar",
-    location: "Jalandhar, Punjab, India",
-    focus: "Computer Science"
+    location: "Jalandhar, Punjab, India"
   }
 ]
 
@@ -59,11 +58,8 @@ export default function Experience() {
           {experiences.map((exp, index) => (
             <div 
               key={index}
-              className="group relative grid sm:grid-cols-[150px_1fr] gap-4 p-6 rounded-lg hover:bg-card/50 transition-all duration-300"
+              className="group relative p-6 rounded-lg hover:bg-card/50 transition-all duration-300"
             >
-              <div className="text-sm text-muted-foreground font-medium">
-                {exp.period}
-              </div>
               <div>
                 <h3 className="text-foreground font-semibold text-lg mb-1 flex items-center gap-2 flex-wrap">
                   {exp.title}
@@ -80,7 +76,7 @@ export default function Experience() {
                     </a>
                   )}
                 </h3>
-                <p className="text-sm text-muted-foreground mb-4">{exp.location}</p>
+                {exp.location && <p className="text-sm text-muted-foreground mb-4">{exp.location}</p>}
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {exp.description}
                 </p>
@@ -123,7 +119,6 @@ export default function Experience() {
                 </h3>
                 <p className="text-primary mb-1">{edu.institution}</p>
                 <p className="text-sm text-muted-foreground">{edu.location}</p>
-                <p className="text-sm text-muted-foreground mt-2">Focus: {edu.focus}</p>
               </div>
             </div>
           ))}

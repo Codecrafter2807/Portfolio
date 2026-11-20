@@ -5,23 +5,23 @@ import { GraduationCap, Briefcase, Code2, Sparkles } from "lucide-react"
 const highlights = [
   {
     icon: Code2,
-    title: "Full-Stack AI Engineering",
-    description: "Building production-ready web apps powered by LLMs, React/Next.js, and FastAPI/Django."
+    title: "IT Support",
+    description: "End-to-end user and application support, software installation, desktop management, and incident resolution."
   },
   {
     icon: Sparkles,
-    title: "Agentic AI & RAG",
-    description: "Hands-on experience with LangGraph, LangChain, and Groq for building intelligent, stateful AI agents."
+    title: "Networks & Security",
+    description: "Network troubleshooting, firewall configuration, VPN tunnel support, and connectivity incident resolution."
   },
   {
     icon: Briefcase,
-    title: "Product Experience",
-    description: "Deployed projects spanning CRM automation, meeting intelligence, and healthcare platforms."
+    title: "Systems Administration",
+    description: "Windows Server, physical servers, Hyper-V virtual machines, Active Directory, and remote access with TSplus and RDP."
   },
   {
     icon: GraduationCap,
-    title: "MCA Graduate",
-    description: "Completed Master of Computer Applications at Lyallpur Khalsa College of Engineering."
+    title: "Software Development Background",
+    description: "MCA and BCA graduate with practical project experience in Python, Django, React, and FastAPI."
   }
 ]
 
@@ -30,28 +30,20 @@ export default function About() {
     <section id="about" className="py-24 px-6 lg:px-0">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-foreground mb-12 tracking-tight">
-          Solving real business problems <span className="text-primary">using AI + Full Stack</span>
+          Keeping technology <span className="text-primary">running smoothly</span>
         </h2>
         
         <div className="grid gap-8">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I am a <span className="text-foreground font-medium">Full-Stack AI Engineer</span> driven 
-            by the challenge of building production-ready applications that leverage the latest in 
-            LLM technology. My journey in tech evolved from building standard web apps to 
-            architecting <span className="text-foreground font-medium">agentic AI systems</span> that 
-            solve real-world problems.
+            I am an <span className="text-foreground font-medium">IT Support and Network Administrator</span> experienced in supporting production systems, managing Windows environments, and resolving user, server, and network issues.
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed">
-            My current focus is on building AI-first platforms using <span className="text-foreground font-medium">LangGraph, Groq, and OpenAI Whisper</span>. 
-            I enjoy the intersection of backend stability (FastAPI/Django) and frontend interactivity (React/Next.js), 
-            ensuring that complex AI logic is delivered through clean, intuitive user interfaces.
+            My hands-on work includes <span className="text-foreground font-medium">Windows Server, Hyper-V, Active Directory, VPNs, and firewall configuration</span>. I also manage user accounts, application permissions, TMS software, and remote access tools such as TSplus and RDP.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            When {"I'm "} not building AI agents, I explore open-source contributions, 
-            software architecture, and UI/UX design. I believe that the best products are 
-            built where engineering excellence meets user-centric design.
+            Alongside IT operations, I bring a software development background in Python and JavaScript. My projects include an AI meeting notes generator and an AI-powered CRM interaction module.
           </p>
         </div>
 
