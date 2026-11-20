@@ -41,7 +41,7 @@ export default function Contact() {
           {/* Left Column - Message */}
           <div>
             <h3 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 text-balance">
-              🚀 Let’s build something impactful
+              Let’s keep your systems running smoothly
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               I’m an immediate joiner and open to remote opportunities, Chandigarh, Mohali, Delhi NCR, or relocation. Feel free to get in touch about an IT support role or project.

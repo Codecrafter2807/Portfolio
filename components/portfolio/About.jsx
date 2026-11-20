@@ -1,6 +1,6 @@
 "use client"
 
-import { GraduationCap, Briefcase, Code2, Sparkles } from "lucide-react"
+import { GraduationCap, Briefcase, Code2, ShieldCheck } from "lucide-react"
 
 const highlights = [
   {
@@ -9,7 +9,7 @@ const highlights = [
     description: "End-to-end user and application support, software installation, desktop management, and incident resolution."
   },
   {
-    icon: Sparkles,
+    icon: ShieldCheck,
     title: "Networks & Security",
     description: "Network troubleshooting, firewall configuration, VPN tunnel support, and connectivity incident resolution."
   },

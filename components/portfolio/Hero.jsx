@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="relative w-28 h-28 sm:w-32 sm:h-32 mb-8 rounded-full overflow-hidden ring-4 ring-primary/20 ring-offset-4 ring-offset-background shadow-lg">
               <Image
                 src="/images/profile.jpeg"
-                alt="Harshit Jain - Full-Stack Developer"
+                alt="Harshit Jain - IT Support and Network Administrator"
                 fill
                 className="object-cover object-top"
                 priority
